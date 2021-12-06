@@ -1,0 +1,193 @@
+---
+title: "IST_707_Project"
+author: "Andrew Zelazny"
+date: "March 29, 2021"
+output:
+  pdf_document: default
+  word_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Load packages
+
+```{r}
+require(caret)
+require(rattle)
+require(dplyr)
+require(ggplot2)
+require(rpart)
+require(rpart.plot)
+require(e1071)
+library(reshape2)
+
+```
+
+# Load data and explore
+
+```{r}
+data = read.csv('StudentsPerformance.csv', stringsAsFactors=TRUE)
+
+hist(data$math.score, xlab='Score', main="Histogram of Math Score")
+hist(data$reading.score, xlab='Score', main="Histogram of Reading Score")
+hist(data$writing.score, xlab='Score', main="Histogram of Writing Score")
+
+barplot(table(data$gender), main="Gender Distribution")
+barplot(table(data$race.ethnicity), main="Race Distribution")
+barplot(table(data$lunch), main="Type of Lunch")
+barplot(table(data$test.preparation.course), main="Prep Course")
+
+ed_levels = c("some high school", "high school", "some college", "associate's degree", "bachelor's degree", "master's degree")
+data$parental.level.of.education = factor(data$parental.level.of.education, levels = ed_levels)
+
+x = barplot(table(data$parental.level.of.education), xaxt="n", main="Parental Education")
+labs = names(table(data$parental.level.of.education))
+text(cex=1, x=x-.25, y=-40, labs, xpd=TRUE, srt=45)
+
+
+data$average = rowMeans(data[, 6:8])
+hist(data$average, xlab='Score', main="Average Test Scores")
+
+
+data$pass_fail = data$average > mean(data$average)
+
+```
+
+```{r}
+p <- ggplot(data, aes(race.ethnicity, average))
+p + geom_violin()
+
+p <- ggplot(data, aes(parental.level.of.education, average))
+p + geom_violin()
+
+p <- ggplot(data, aes(lunch, average))
+p + geom_violin()
+
+p <- ggplot(data, aes(gender, average))
+p + geom_violin()
+
+p <- ggplot(data, aes(test.preparation.course, average))
+p + geom_violin()
+```
+
+
+# Select training and test data
+
+```{r}
+set.seed(1234)
+train_sel = sample(nrow(data), nrow(data) * 2/3)
+omit_cols = names(data) %in% cbind("math.score", "reading.score", "writing.score", "average")
+
+train = data[train_sel, ]
+test = data[-train_sel, ]
+
+```
+
+# Decision Tree Model
+
+```{r}
+
+
+dt_1 = rpart(pass_fail ~ race.ethnicity + parental.level.of.education + lunch + test.preparation.course, data=train, method='class')
+
+fancyRpartPlot(dt_1)
+
+summary(dt_1)
+
+pred_1 = predict(dt_1, test)
+
+results_1 = pred_1[, 2] > 0.5
+
+row.names(test) <- NULL
+result_1 <- test %>% bind_cols(results_1)
+result_1$results <- as.factor(result_1[, 11])
+result_1$pass_fail = as.factor(result_1$pass_fail)
+confusionMatrix(result_1$results, result_1$pass_fail)
+
+
+```
+
+# Naive Bayes MOdel
+
+
+```{r}
+model_2 = naiveBayes(pass_fail ~ gender + race.ethnicity + parental.level.of.education + lunch + test.preparation.course, data=train)
+
+summary(model_2)
+
+pred_2 = predict(model_2, test)
+
+
+row.names(test) <- NULL
+result_2 <- test %>% bind_cols(pred_2)
+result_2$results <- as.factor(result_2[, 11])
+result_2$pass_fail = as.factor(result_2$pass_fail)
+confusionMatrix(result_2$results, result_2$pass_fail)
+
+```
+
+# SVM Model
+
+```{r}
+# Make dummy variables for svm
+dummies = dummyVars(~ ., data=train[, 1:6])
+c2 = predict(dummies, train[, 1:6])
+d_train = as.data.frame(cbind(train$pass_fail, c2))
+
+dummies = dummyVars(~ ., data=test[, 1:6])
+c2 = predict(dummies, test[, 1:6])
+d_test = as.data.frame(cbind(test$pass_fail, c2))
+
+model_3 = svm(~ ., data=d_train)
+
+summary(model_3)
+
+pred_3 = predict(model_3, d_test)
+
+results_3 = test
+
+row.names(test) <- NULL
+result_3 <- test %>% bind_cols(pred_3)
+result_3$results <- as.factor(result_3[, 11])
+result_3$pass_fail = as.factor(result_3$pass_fail)
+confusionMatrix(result_3$results, result_3$pass_fail)
+
+
+#results_3$check = pred_3 - test$average
+
+#results_3$results = pred_3 > mean(data$average)
+#results_3$pass_fail = as.factor(results_3$pass_fail)
+#results_3$results = as.factor(results_3$results)
+#confusionMatrix(results_3$results, results_3$pass_fail)
+
+#hist(results_3$check, xlab='Pred vs. Actual Score', main="Distribution of Residuals")
+
+#hist(pred_3, xlab='Predicted Score', main="SVM Predicted Average Scores")
+
+#summary(results_3$check)
+
+```
+
+# Assess ensemble model of all three
+
+```{r}
+x_1 = as.numeric(results_1)
+x_2 = as.numeric(pred_2)
+x_3 = as.numeric(pred_3)
+
+pred_x = data.frame(cbind(x_1, x_2, x_3))
+pred_x$sum = rowSums(pred_x)
+pred_x$ensemble = pred_x$sum >= 2
+
+
+row.names(test) <- NULL
+result_4 <- test %>% bind_cols(pred_x$ensemble)
+result_4$results <- as.factor(result_4[, 11])
+result_4$pass_fail = as.factor(result_4$pass_fail)
+confusionMatrix(result_4$results, result_4$pass_fail)
+
+
+```
+

@@ -1,0 +1,236 @@
+,School,Conference,SPORT,FSR,GSR
+0,Alabama A&M University,Southwestern Athletic Conf.,MFB,47.0,62.0
+1,University of Alabama at Birmingham,Conference USA,MFB,58.0,71.0
+2,Alabama State University,Southwestern Athletic Conf.,MFB,42.0,58.0
+3,University of Alabama,Southeastern Conference,MFB,63.0,84.0
+4,Auburn University,Southeastern Conference,MFB,60.0,72.0
+5,Jacksonville State University,Ohio Valley Conference,MFB,57.0,62.0
+6,Samford University,Southern Conference,MFB,78.0,93.0
+7,University of South Alabama,Sun Belt Conference,MFB,55.0,66.0
+8,Troy University,Sun Belt Conference,MFB,57.0,73.0
+9,Arizona State University,Pac-12 Conference,MFB,61.0,73.0
+10,University of Arizona,Pac-12 Conference,MFB,63.0,76.0
+11,Northern Arizona University,Big Sky Conference,MFB,54.0,75.0
+12,"University of Arkansas, Fayetteville",Southeastern Conference,MFB,42.0,56.0
+13,"University of Arkansas, Pine Bluff",Southwestern Athletic Conf.,MFB,44.0,54.0
+14,Arkansas State University,Sun Belt Conference,MFB,68.0,83.0
+15,University of Central Arkansas,Southland Conference,MFB,52.0,73.0
+16,California Polytechnic State University,Big Sky Conference,MFB,69.0,70.0
+17,"California State University, Fresno",Mountain West Conference,MFB,69.0,76.0
+18,"California State University, Sacramento",Big Sky Conference,MFB,38.0,61.0
+19,"University of California, Berkeley",Pac-12 Conference,MFB,52.0,64.0
+20,"University of California, Davis",Big Sky Conference,MFB,81.0,82.0
+21,"University of California, Los Angeles",Pac-12 Conference,MFB,66.0,84.0
+22,San Diego State University,Mountain West Conference,MFB,70.0,74.0
+24,San Jose State University,Mountain West Conference,MFB,74.0,80.0
+25,University of Southern California,Pac-12 Conference,MFB,60.0,76.0
+26,"University of Colorado, Boulder",Pac-12 Conference,MFB,63.0,85.0
+27,Colorado State University,Mountain West Conference,MFB,61.0,73.0
+28,University of Northern Colorado,Big Sky Conference,MFB,62.0,84.0
+30,Central Connecticut State University,Northeast Conference,MFB,47.0,62.0
+31,University of Connecticut,American Athletic Conference,MFB,68.0,79.0
+32,Sacred Heart University,Northeast Conference,MFB,59.0,83.0
+34,Delaware State University,Mid-Eastern Athletic Conf.,MFB,53.0,70.0
+35,University of Delaware,Colonial Athletic Association,MFB,74.0,79.0
+36,Georgetown University,Patriot League,MFB,81.0,92.0
+37,Howard University,Mid-Eastern Athletic Conf.,MFB,64.0,73.0
+38,Bethune-Cookman University,Mid-Eastern Athletic Conf.,MFB,51.0,61.0
+39,University of Central Florida,American Athletic Conference,MFB,63.0,87.0
+40,Florida A&M University,Mid-Eastern Athletic Conf.,MFB,41.0,55.0
+41,Florida Atlantic University,Conference USA,MFB,58.0,69.0
+42,Florida International University,Conference USA,MFB,60.0,70.0
+43,Florida State University,Atlantic Coast Conference,MFB,52.0,65.0
+44,University of Florida,Southeastern Conference,MFB,42.0,74.0
+46,University of Miami (Florida),Atlantic Coast Conference,MFB,59.0,82.0
+47,University of South Florida,American Athletic Conference,MFB,72.0,76.0
+48,Georgia Institute of Technology,Atlantic Coast Conference,MFB,73.0,86.0
+49,Georgia Southern University,Sun Belt Conference,MFB,50.0,62.0
+50,Georgia State University,Sun Belt Conference,MFB,71.0,60.0
+51,University of Georgia,Southeastern Conference,MFB,42.0,58.0
+52,Savannah State University,Mid-Eastern Athletic Conf.,MFB,30.0,34.0
+53,"University of Hawaii, Manoa",Mountain West Conference,MFB,56.0,79.0
+54,Boise State University,Mountain West Conference,MFB,69.0,89.0
+55,Idaho State University,Big Sky Conference,MFB,53.0,83.0
+56,University of Idaho,Sun Belt Conference,MFB,32.0,52.0
+57,Eastern Illinois University,Ohio Valley Conference,MFB,58.0,72.0
+58,University of Illinois Urbana-Champaign,Big Ten Conference,MFB,65.0,81.0
+59,Illinois State University,Missouri Valley Football Conference,MFB,50.0,73.0
+60,Northern Illinois University,Mid-American Conference,MFB,63.0,83.0
+61,Northwestern University,Big Ten Conference,MFB,92.0,99.0
+62,Southern Illinois University at Carbondale,Missouri Valley Football Conference,MFB,62.0,76.0
+63,Western Illinois University,Missouri Valley Football Conference,MFB,51.0,75.0
+64,Ball State University,Mid-American Conference,MFB,60.0,70.0
+66,Indiana State University,Missouri Valley Football Conference,MFB,54.0,68.0
+67,"Indiana University, Bloomington",Big Ten Conference,MFB,68.0,83.0
+68,University of Notre Dame,Independent,MFB,87.0,95.0
+70,Drake University,Pioneer Football League,MFB,100.0,89.0
+71,Iowa State University,Big 12 Conference,MFB,62.0,82.0
+72,University of Iowa,Big Ten Conference,MFB,64.0,80.0
+73,University of Northern Iowa,Missouri Valley Football Conference,MFB,53.0,71.0
+74,University of Kansas,Big 12 Conference,MFB,62.0,78.0
+75,Kansas State University,Big 12 Conference,MFB,64.0,82.0
+76,Eastern Kentucky University,Ohio Valley Conference,MFB,54.0,77.0
+77,University of Kentucky,Southeastern Conference,MFB,54.0,74.0
+78,University of Louisville,Atlantic Coast Conference,MFB,77.0,86.0
+80,Murray State University,Ohio Valley Conference,MFB,59.0,79.0
+81,Western Kentucky University,Conference USA,MFB,55.0,74.0
+82,Grambling State University,Southwestern Athletic Conf.,MFB,62.0,62.0
+83,Louisiana State University,Southeastern Conference,MFB,41.0,73.0
+84,Louisiana Tech University,Conference USA,MFB,53.0,65.0
+85,McNeese State University,Southland Conference,MFB,75.0,78.0
+86,Nicholls State University,Southland Conference,MFB,52.0,71.0
+87,University of Louisiana at Monroe,Sun Belt Conference,MFB,63.0,72.0
+88,Northwestern State University,Southland Conference,MFB,54.0,68.0
+89,Southeastern Louisiana University,Southland Conference,MFB,51.0,71.0
+90,"Southern University, Baton Rouge",Southwestern Athletic Conf.,MFB,42.0,47.0
+91,University of Louisiana at Lafayette,Sun Belt Conference,MFB,61.0,74.0
+92,Tulane University,American Athletic Conference,MFB,69.0,88.0
+93,"University of Maine, Orono",Colonial Athletic Association,MFB,66.0,78.0
+94,"University of Maryland, College Park",Big Ten Conference,MFB,66.0,84.0
+95,Morgan State University,Mid-Eastern Athletic Conf.,MFB,45.0,57.0
+96,Towson University,Colonial Athletic Association,MFB,53.0,73.0
+97,U.S. Naval Academy,American Athletic Conference,MFB,100.0,81.0
+98,Boston College,Atlantic Coast Conference,MFB,76.0,88.0
+99,Harvard University,The Ivy League,MFB,100.0,100.0
+100,College of the Holy Cross,Patriot League,MFB,84.0,96.0
+101,"University of Massachusetts, Amherst",Independent,MFB,49.0,66.0
+103,Central Michigan University,Mid-American Conference,MFB,58.0,71.0
+104,Eastern Michigan University,Mid-American Conference,MFB,42.0,67.0
+105,University of Michigan,Big Ten Conference,MFB,69.0,87.0
+106,Michigan State University,Big Ten Conference,MFB,67.0,82.0
+107,Western Michigan University,Mid-American Conference,MFB,54.0,75.0
+108,"University of Minnesota, Twin Cities",Big Ten Conference,MFB,71.0,89.0
+109,Alcorn State University,Southwestern Athletic Conf.,MFB,44.0,67.0
+110,Jackson State University,Southwestern Athletic Conf.,MFB,44.0,70.0
+111,University of Mississippi,Southeastern Conference,MFB,52.0,68.0
+112,Mississippi Valley State University,Southwestern Athletic Conf.,MFB,43.0,88.0
+113,Mississippi State University,Southeastern Conference,MFB,68.0,83.0
+114,The University of Southern Mississippi,Conference USA,MFB,61.0,75.0
+115,"University of Missouri, Columbia",Southeastern Conference,MFB,77.0,89.0
+116,Southeast Missouri State University,Ohio Valley Conference,MFB,61.0,66.0
+117,Missouri State University,Missouri Valley Football Conference,MFB,53.0,62.0
+118,Montana State University-Bozeman,Big Sky Conference,MFB,60.0,72.0
+119,University of Montana,Big Sky Conference,MFB,50.0,63.0
+121,"University of Nebraska, Lincoln",Big Ten Conference,MFB,72.0,82.0
+122,"University of Nevada, Las Vegas",Mountain West Conference,MFB,56.0,63.0
+123,"University of Nevada, Reno",Mountain West Conference,MFB,43.0,69.0
+125,University of New Hampshire,Colonial Athletic Association,MFB,78.0,94.0
+126,Monmouth University,Big South Conference,MFB,70.0,86.0
+127,Princeton University,The Ivy League,MFB,100.0,97.0
+128,"Rutgers, The State University of New Jersey, New Brunswick",Big Ten Conference,MFB,55.0,78.0
+129,University of New Mexico,Mountain West Conference,MFB,41.0,59.0
+130,New Mexico State University,Sun Belt Conference,MFB,63.0,73.0
+131,Colgate University,Patriot League,MFB,79.0,89.0
+134,Fordham University,Patriot League,MFB,82.0,88.0
+136,Marist College,Pioneer Football League,MFB,100.0,84.0
+137,University at Albany,Colonial Athletic Association,MFB,67.0,90.0
+138,"University at Buffalo, the State University of New York",Mid-American Conference,MFB,56.0,70.0
+139,Stony Brook University,Colonial Athletic Association,MFB,67.0,82.0
+140,Syracuse University,Atlantic Coast Conference,MFB,70.0,85.0
+142,Wagner College,Northeast Conference,MFB,60.0,73.0
+143,Appalachian State University,Sun Belt Conference,MFB,67.0,71.0
+144,Campbell University,Pioneer Football League,MFB,70.0,82.0
+146,Duke University,Atlantic Coast Conference,MFB,89.0,96.0
+147,East Carolina University,American Athletic Conference,MFB,67.0,72.0
+148,Elon University,Colonial Athletic Association,MFB,77.0,96.0
+149,Gardner-Webb University,Big South Conference,MFB,52.0,66.0
+150,North Carolina A&T State University,Mid-Eastern Athletic Conf.,MFB,46.0,51.0
+151,"University of North Carolina, Chapel Hill",Atlantic Coast Conference,MFB,48.0,62.0
+153,North Carolina Central University,Mid-Eastern Athletic Conf.,MFB,48.0,66.0
+154,North Carolina State University,Atlantic Coast Conference,MFB,61.0,74.0
+155,Wake Forest University,Atlantic Coast Conference,MFB,74.0,89.0
+156,Western Carolina University,Southern Conference,MFB,50.0,79.0
+157,University of North Dakota,Big Sky Conference,MFB,64.0,74.0
+158,North Dakota State University,Missouri Valley Football Conference,MFB,58.0,70.0
+159,University of Akron,Mid-American Conference,MFB,61.0,72.0
+160,Bowling Green State University,Mid-American Conference,MFB,68.0,82.0
+161,University of Cincinnati,American Athletic Conference,MFB,65.0,82.0
+162,University of Dayton,Pioneer Football League,MFB,100.0,93.0
+163,Kent State University,Mid-American Conference,MFB,62.0,76.0
+164,Miami University (Ohio),Mid-American Conference,MFB,74.0,87.0
+165,The Ohio State University,Big Ten Conference,MFB,44.0,64.0
+166,Ohio University,Mid-American Conference,MFB,68.0,80.0
+167,University of Toledo,Mid-American Conference,MFB,69.0,79.0
+168,Youngstown State University,Missouri Valley Football Conference,MFB,49.0,66.0
+169,Oklahoma State University,Big 12 Conference,MFB,36.0,46.0
+170,University of Oklahoma,Big 12 Conference,MFB,59.0,76.0
+171,The University of Tulsa,American Athletic Conference,MFB,75.0,77.0
+172,Oregon State University,Pac-12 Conference,MFB,47.0,64.0
+173,University of Oregon,Pac-12 Conference,MFB,63.0,71.0
+174,Portland State University,Big Sky Conference,MFB,52.0,63.0
+175,Bucknell University,Patriot League,MFB,83.0,91.0
+176,Duquesne University,Northeast Conference,MFB,64.0,78.0
+177,Lafayette College,Patriot League,MFB,75.0,97.0
+178,Lehigh University,Patriot League,MFB,78.0,83.0
+179,Pennsylvania State University,Big Ten Conference,MFB,66.0,82.0
+180,University of Pennsylvania,The Ivy League,MFB,90.0,94.0
+181,University of Pittsburgh,Atlantic Coast Conference,MFB,49.0,75.0
+182,Robert Morris University,Northeast Conference,MFB,45.0,70.0
+183,Saint Francis University (Pennsylvania),Northeast Conference,MFB,65.0,86.0
+184,Temple University,American Athletic Conference,MFB,65.0,81.0
+185,Villanova University,Colonial Athletic Association,MFB,84.0,85.0
+187,Bryant University,Northeast Conference,MFB,74.0,91.0
+188,University of Rhode Island,Colonial Athletic Association,MFB,58.0,76.0
+189,Charleston Southern University,Big South Conference,MFB,41.0,61.0
+190,The Citadel,Southern Conference,MFB,67.0,82.0
+191,Clemson University,Atlantic Coast Conference,MFB,70.0,87.0
+192,Furman University,Southern Conference,MFB,73.0,80.0
+193,Presbyterian College,Big South Conference,MFB,57.0,72.0
+194,"University of South Carolina, Columbia",Southeastern Conference,MFB,63.0,93.0
+195,Coastal Carolina University,Sun Belt Conference,MFB,58.0,73.0
+196,South Carolina State University,Mid-Eastern Athletic Conf.,MFB,63.0,68.0
+197,Wofford College,Southern Conference,MFB,82.0,94.0
+198,South Dakota State University,Missouri Valley Football Conference,MFB,67.0,76.0
+199,University of South Dakota,Missouri Valley Football Conference,MFB,56.0,79.0
+200,Austin Peay State University,Ohio Valley Conference,MFB,66.0,71.0
+201,University of Memphis,American Athletic Conference,MFB,46.0,76.0
+202,Middle Tennessee State University,Conference USA,MFB,65.0,86.0
+203,University of Tennessee at Chattanooga,Southern Conference,MFB,64.0,80.0
+204,"University of Tennessee, Knoxville",Southeastern Conference,MFB,59.0,74.0
+205,University of Tennessee at Martin,Ohio Valley Conference,MFB,63.0,75.0
+206,Tennessee State University,Ohio Valley Conference,MFB,37.0,50.0
+207,Tennessee Technological University,Ohio Valley Conference,MFB,70.0,81.0
+208,Vanderbilt University,Southeastern Conference,MFB,84.0,95.0
+209,Abilene Christian University,Southland Conference,MFB,41.0,61.0
+210,Baylor University,Big 12 Conference,MFB,66.0,87.0
+211,University of Houston,American Athletic Conference,MFB,60.0,65.0
+212,University of the Incarnate Word,Southland Conference,MFB,54.0,78.0
+213,Lamar University,Southland Conference,MFB,59.0,69.0
+214,University of North Texas,Conference USA,MFB,65.0,80.0
+215,Prairie View A&M University,Southwestern Athletic Conf.,MFB,51.0,61.0
+216,Rice University,Conference USA,MFB,77.0,87.0
+217,Sam Houston State University,Southland Conference,MFB,50.0,55.0
+218,Southern Methodist University,American Athletic Conference,MFB,62.0,71.0
+219,Stephen F. Austin State University,Southland Conference,MFB,40.0,44.0
+220,Texas State University,Sun Belt Conference,MFB,63.0,71.0
+221,"Texas A&M University, College Station",Southeastern Conference,MFB,60.0,71.0
+222,University of Texas at Austin,Big 12 Conference,MFB,67.0,78.0
+223,University of Texas at El Paso,Conference USA,MFB,51.0,79.0
+224,Texas Christian University,Big 12 Conference,MFB,58.0,70.0
+225,University of Texas at San Antonio,Conference USA,MFB,63.0,80.0
+226,Texas Southern University,Southwestern Athletic Conf.,MFB,39.0,58.0
+227,Texas Tech University,Big 12 Conference,MFB,65.0,76.0
+228,Brigham Young University,Independent,MFB,47.0,58.0
+229,Southern Utah University,Big Sky Conference,MFB,72.0,77.0
+230,Utah State University,Mountain West Conference,MFB,63.0,92.0
+231,University of Utah,Pac-12 Conference,MFB,67.0,95.0
+232,Weber State University,Big Sky Conference,MFB,52.0,67.0
+233,College of William & Mary,Colonial Athletic Association,MFB,84.0,87.0
+234,Hampton University,Mid-Eastern Athletic Conf.,MFB,54.0,75.0
+235,James Madison University,Colonial Athletic Association,MFB,75.0,78.0
+236,Liberty University,Big South Conference,MFB,66.0,71.0
+237,Norfolk State University,Mid-Eastern Athletic Conf.,MFB,60.0,67.0
+238,Old Dominion University,Conference USA,MFB,49.0,70.0
+239,University of Richmond,Colonial Athletic Association,MFB,73.0,82.0
+240,Virginia Polytechnic Institute and State University,Atlantic Coast Conference,MFB,74.0,90.0
+241,University of Virginia,Atlantic Coast Conference,MFB,72.0,85.0
+242,Virginia Military Institute,Southern Conference,MFB,63.0,77.0
+243,Eastern Washington University,Big Sky Conference,MFB,68.0,75.0
+244,Washington State University,Pac-12 Conference,MFB,56.0,75.0
+245,University of Washington,Pac-12 Conference,MFB,66.0,84.0
+246,Marshall University,Conference USA,MFB,57.0,78.0
+247,West Virginia University,Big 12 Conference,MFB,60.0,65.0
+248,University of Wisconsin-Madison,Big Ten Conference,MFB,72.0,86.0
+249,University of Wyoming,Mountain West Conference,MFB,47.0,78.0
+250,Stanford University,Pac-12 Conference,MFB,88.0,95.0
+251,Purdue University,Big Ten Conference,MFB,64.0,77.0
